@@ -1,0 +1,24 @@
+.container{
+    display:flex;                    /* Inicia a organização Flex */
+    flex-direction: row;             /* Alinha os itens na linha Horizontal */
+    flex-wrap: wrap;                 /* Permite quebra de linha */
+    justify-content:space-between;    /* Distribui os itens entre si com tamanho de espaço igual */
+    align-items:center; /* Alinha itens ao centro do eixo transversal */
+    height:100%; /* A altura do container é a mesma da página */
+    border: 2px solid #ccc/* Define a cor da borda e seu tamanho */
+}
+
+.item{
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+header, footer{
+    background-color: darkslategray;
+    color:white;
+    text-align: center;
+    padding:20px;
+}
